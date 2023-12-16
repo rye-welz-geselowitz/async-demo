@@ -3,15 +3,16 @@
 python3 -m venv async-demo-venv
 
 # Run 
-# Activate virtualenv
+## Activate virtualenv
 source async-demo-venv/bin/activate
 
-# Run redis server
+## Run redis server
 redis-server
 
-# Run worker 
+## Run worker 
 python -m worker 
 
-# Run script 
-python -m demo
+## Run script 
+python -m demo --do_async=true
+python -m demo --do_async=false
 
