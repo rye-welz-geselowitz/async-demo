@@ -1,18 +1,19 @@
 # First time 
 ## Create virtualenv
-python3 -m venv async-demo-venv
+`python3 -m venv async-demo-venv`
 
 # Run 
 ## Activate virtualenv
-source async-demo-venv/bin/activate
+`source async-demo-venv/bin/activate`
 
 ## Run redis server
-redis-server
+`redis-server`
 
 ## Run worker 
-python -m worker 
+`python -m worker`
 
 ## Run script 
-python -m demo --do_async=true
-python -m demo --do_async=false
+`python -m demo --do_async=true`
+
+`python -m demo --do_async=false`
 
