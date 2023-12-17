@@ -2,7 +2,7 @@ from time import sleep
 
 from timer import timed
 
-SLEEP_SECONDS = 30
+SLEEP_SECONDS = 10
 
 def do_slow_piece_of_work():
     _do_slow_piece_of_work()
