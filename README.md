@@ -3,9 +3,6 @@
 ## Create virtualenv
 `python3 -m venv async-demo-venv`
 
-## Install requirements 
-`pip install -r requirements.txt`
-
 ## Install redis 
 https://redis.io/docs/install/install-redis/install-redis-on-mac-os/
 
@@ -13,13 +10,16 @@ https://redis.io/docs/install/install-redis/install-redis-on-mac-os/
 ## Activate virtualenv
 `source async-demo-venv/bin/activate`
 
-## Run redis server
+## Install requirements 
+`pip install -r requirements.txt`
+
+## (tab 1) Run redis server
 `redis-server`
 
-## Run worker 
+## (tab 2) Run worker 
 `python -m worker`
 
-## Run script 
+## (tab 3) Run script 
 `python -m demo --do_async=true`
 
 `python -m demo --do_async=false`
