@@ -1,6 +1,13 @@
+
 # First time 
 ## Create virtualenv
 `python3 -m venv async-demo-venv`
+
+## Install requirements 
+`pip install -r requirements.txt`
+
+## Install redis 
+https://redis.io/docs/install/install-redis/install-redis-on-mac-os/
 
 # Run 
 ## Activate virtualenv
